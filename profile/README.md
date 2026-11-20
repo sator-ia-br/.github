@@ -6,27 +6,27 @@ A **Sator IA** desenvolve arquiteturas de conhecimento estruturado e automação
 
 ## Pilares arquiteturais
 
-- **Knowledge Graph First:** conhecimento organizacional modelado como grafo semântico conectável, em vez de documentos isolados.
+- **Knowledge Graph First:** conhecimento organizacional modelado como grafo semântico conectável.
 - **Git-Versioned:** base de conhecimento em Markdown e YAML versionada em Git, com histórico completo e auditável.
 - **Engine Agnostic:** arquitetura independente de modelos, frameworks ou provedores de LLM.
 - **Human Governed:** agentes executam tarefas determinísticas e propõem melhorias; decisões críticas permanecem sob aprovação humana.
-- **Simplicidade Operacional:** pipelines objetivos, reproduzíveis e fáceis de manter em produção.
+- **Simplicidade Operacional:** pipelines, objetivos reproduzíveis e fáceis de manter em produção.
 
 ## Modelo de memória em 4 camadas
 
 | Camada | Papel na arquitetura | Natureza |
 | :--- | :--- | :--- |
-| **KNOWLEDGE** | Processos, políticas, regras de negócio e glossário | Versionado em Git (Markdown + YAML) |
+| **KNOWLEDGE** | Processos, políticas, regras de negócio e glossário |
 | **STATE** | Estado atual da operação em sistemas transacionais | ERPs, documentos e gestores de tarefas |
-| **EVENT** | Registro cronológico de execuções e resumos operacionais | Logs imutáveis e sínteses diárias |
+| **EVENT** | Registro cronológico de execuções e resumos operacionais |
 | **INSIGHT** | Análises e propostas geradas por agentes | Fila de revisão e aprovação humana |
 
 ## Stack e ecossistema
 
-`Python` · `Knowledge Graphs` · `Git` · `Markdown / YAML` · `MCP` · `AI Agents`
+`AI Agents` · `MCP / SKILL` · `Knowledge Graphs` · `Markdown / YAML` · `Python` · `Git` 
 
 ## Contato
 
 - **Site:** `[https://sator-ia.com.br]`
 - **E-mail:** `[contato@sator-ia.com.br]`
-- **Localização:** Brasil
+- **Localização:** Brasil ~ #Jampa
