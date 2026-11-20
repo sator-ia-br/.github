@@ -16,9 +16,9 @@ A **Sator IA** desenvolve arquiteturas de conhecimento estruturado e automação
 
 | Camada | Papel na arquitetura | Natureza |
 | :--- | :--- | :--- |
-| **KNOWLEDGE** | Processos, políticas, regras de negócio e glossário |
+| **KNOWLEDGE** | Processos, políticas, regras de negócio e glossário | Versionado |
 | **STATE** | Estado atual da operação em sistemas transacionais | ERPs, documentos e gestores de tarefas |
-| **EVENT** | Registro cronológico de execuções e resumos operacionais |
+| **EVENT** | Registro cronológico de execuções e resumos operacionais | Logs imutáveis e sínteses diárias |
 | **INSIGHT** | Análises e propostas geradas por agentes | Fila de revisão e aprovação humana |
 
 ## Stack e ecossistema
